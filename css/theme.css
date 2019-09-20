@@ -1,0 +1,510 @@
+html,
+body {
+  background-color: #F3F3F5;
+}
+
+/* minirefresh */
+body .minirefresh-scroll {
+  background-color: unset;
+}
+
+body .minirefresh-scroll .content {
+  background-color: unset;
+  min-height      : 30px;
+}
+
+body .minirefresh-totop {
+  bottom: 8rem;
+}
+
+body .minirefresh-theme-default .downwrap-content {
+  padding: 15px 0;
+}
+
+/* float */
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content   : "";
+  display   : block;
+  visibility: hidden;
+  clear     : both;
+  height    : 0;
+}
+
+/* shadow */
+.shadow {
+  box-shadow: 1px 1px 2px -2px #9a9a9a;
+}
+
+/* 省略号 */
+.ellipsis {
+  overflow     : hidden;
+  text-overflow: ellipsis;
+  white-space  : nowrap;
+}
+
+/* flex */
+.flex-a {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+
+  justify-content        : space-around;
+  -webkit-justify-content: space-around;
+  -moz-box-pack          : space-around;
+  -webkit--moz-box-pack  : space-around;
+  box-pack               : space-around;
+
+  align-items        : center;
+  -webkit-align-items: center;
+  box-align          : center;
+  -moz-box-align     : center;
+  -webkit-box-align  : center;
+}
+
+.flex-b {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+
+  justify-content        : space-between;
+  -webkit-justify-content: space-between;
+  -moz-box-pack          : space-between;
+  -webkit--moz-box-pack  : space-between;
+  box-pack               : space-between;
+
+  align-items        : center;
+  -webkit-align-items: center;
+  box-align          : center;
+  -moz-box-align     : center;
+  -webkit-box-align  : center;
+}
+
+.flex-c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  justify-content        : center;
+  -webkit-justify-content: center;
+  -moz-box-pack          : center;
+  -webkit--moz-box-pack  : center;
+  box-pack               : center;
+
+  align-items        : center;
+  -webkit-align-items: center;
+  box-align          : center;
+  -moz-box-align     : center;
+  -webkit-box-align  : center;
+}
+
+.flex-s {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  justify-content        : flex-start;
+  -webkit-justify-content: flex-start;
+  -moz-box-pack          : flex-start;
+  -webkit--moz-box-pack  : flex-start;
+  box-pack               : flex-start;
+
+  align-items        : flex-start;
+  -webkit-align-items: flex-start;
+  box-align          : flex-start;
+  -moz-box-align     : flex-start;
+  -webkit-box-align  : flex-start;
+}
+
+.c-flex-a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  flex-direction        : column;
+  -webkit-box-orient    : vertical;
+  -webkit-box-direction : normal;
+  -moz-box-orient       : vertical;
+  -moz-box-direction    : normal;
+  -webkit-flex-direction: column;
+
+  justify-content        : space-around;
+  -webkit-justify-content: space-around;
+  -moz-box-pack          : space-around;
+  -webkit--moz-box-pack  : space-around;
+  box-pack               : space-around;
+
+  align-items        : center;
+  -webkit-align-items: center;
+  box-align          : center;
+  -moz-box-align     : center;
+  -webkit-box-align  : center;
+}
+
+.c-flex-b {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+
+  flex-direction        : column;
+  -webkit-box-orient    : vertical;
+  -webkit-box-direction : normal;
+  -moz-box-orient       : vertical;
+  -moz-box-direction    : normal;
+  -webkit-flex-direction: column;
+
+  justify-content        : space-between;
+  -webkit-justify-content: space-between;
+  -moz-box-pack          : space-between;
+  -webkit--moz-box-pack  : space-between;
+  box-pack               : space-between;
+
+  align-items        : center;
+  -webkit-align-items: center;
+  box-align          : center;
+  -moz-box-align     : center;
+  -webkit-box-align  : center;
+}
+
+.c-flex-c {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+
+  flex-direction        : column;
+  -webkit-box-orient    : vertical;
+  -webkit-box-direction : normal;
+  -moz-box-orient       : vertical;
+  -moz-box-direction    : normal;
+  -webkit-flex-direction: column;
+
+  justify-content        : center;
+  -webkit-justify-content: center;
+  -moz-box-pack          : center;
+  -webkit--moz-box-pack  : center;
+  box-pack               : center;
+
+  align-items        : center;
+  -webkit-align-items: center;
+  box-align          : center;
+  -moz-box-align     : center;
+  -webkit-box-align  : center;
+}
+
+.c-flex-s {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  flex-direction        : column;
+  -webkit-box-orient    : vertical;
+  -webkit-box-direction : normal;
+  -moz-box-orient       : vertical;
+  -moz-box-direction    : normal;
+  -webkit-flex-direction: column;
+
+  justify-content        : flex-start;
+  -webkit-justify-content: flex-start;
+  -moz-box-pack          : flex-start;
+  -webkit--moz-box-pack  : flex-start;
+  box-pack               : flex-start;
+
+  align-items        : flex-start;
+  -webkit-align-items: flex-start;
+  box-align          : flex-start;
+  -moz-box-align     : flex-start;
+  -webkit-box-align  : flex-start;
+}
+
+.flex-wrap {
+  flex-wrap        : wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap   : wrap;
+  -ms-flex-wrap    : wrap;
+  -o-flex-wrap     : wrap;
+}
+
+/* header */
+header {
+  position        : fixed;
+  top             : 0;
+  width           : 100%;
+  background-color: #ffffff;
+  min-height      : 3rem;
+  box-shadow      : 1px 1px 2px -2px #9a9a9a;
+  z-index         : 1;
+}
+
+header p.title {
+  font-size  : 1.2rem;
+  font-weight: bold;
+}
+
+header img.arrow {
+  height  : 1.2rem;
+  width   : 1.2rem;
+  position: absolute;
+  left    : 0.75rem;
+}
+
+/* main */
+main {
+  margin  : 3rem 0;
+  position: relative;
+  width   : 100%;
+}
+
+/* footer */
+footer {
+  position        : fixed;
+  bottom          : 0;
+  width           : 100%;
+  background-color: #ffffff;
+  min-height      : 3rem;
+  z-index         : 1;
+}
+
+footer img {
+  height: 1.2rem;
+  width : 1.2rem;
+}
+
+footer p {
+  color     : #9B9B9B;
+  font-size : 0.5rem;
+  margin-top: 0.375rem;
+}
+
+footer .ac-this {
+  color: #105844;
+}
+
+/* button */
+
+button.btn-plain {
+  min-width       : 6.25rem;
+  padding         : 0.375rem 0.75rem;
+  border          : 0.0625rem solid #000;
+  border-radius   : 0.25rem;
+  font-size       : 1rem;
+  background-color: unset;
+}
+
+button.btn-primary {
+  min-width       : 6.25rem;
+  padding         : 0.375rem 0.75rem;
+  border          : 0.0625rem solid #FF7D4F;
+  font-size       : 1rem;
+  border-radius   : 0.25rem;
+  color           : #fff;
+  background-color: #FF7D4F;
+}
+
+button.btn-plain-primary {
+  min-width       : 6.25rem;
+  padding         : 0.375rem 0.75rem;
+  border          : 0.0625rem solid #FF7D4F;
+  font-size       : 1rem;
+  border-radius   : 0.25rem;
+  color           : #FF7D4F;
+  background-color: #fff;
+}
+
+button.btn-default {
+  min-width       : 6.25rem;
+  padding         : 0.375rem 0.75rem;
+  border          : 0.0625rem solid #F8F6F9;
+  font-size       : 1rem;
+  border-radius   : 0.25rem;
+  color           : #999999;
+  background-color: #F8F6F9;
+}
+
+button.btn-default-selected {
+  border: 0.0625rem solid #FF7D4F;
+  border-radius   : 0.25rem;
+  color : #FF7D4F;
+}
+
+button.btn-normal {
+  min-width       : 6.25rem;
+  padding         : 0.375rem 0.75rem;
+  border          : 0.0625rem solid #E1E1E1;
+  font-size       : 1rem;
+  border-radius   : 0.25rem;
+  color           : #000;
+  background-color: #fff;
+}
+
+/* 图片 */
+img.img-selcted {
+  height       : 1.45rem;
+  width        : 1.45rem;
+}
+
+img.point {
+  height: 1.2rem;
+  width : 1.2rem;
+}
+
+img.edit {
+  height: 1.4rem;
+  width : 1.4rem;
+}
+
+/* 文本框 */
+textarea {
+  width     : 100%;
+  box-sizing: border-box;
+  border    : 0.06rem solid #E1E1E1;
+  padding   : 0.75rem;
+  outline   : 0;
+  font-size : 0.75rem;
+}
+
+textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color    : #BABABA;
+  font-size: 0.75rem;
+}
+
+textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color    : #BABABA;
+  font-size: 0.75rem;
+}
+
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color    : #BABABA;
+  font-size: 0.75rem;
+}
+
+/* 下拉选择框 */
+select {
+  appearance        : none;
+  -moz-appearance   : none;
+  -webkit-appearance: none;
+  /*以上三项,为清除select自带样式*/
+
+  background-image   : url(../image/brn_drop.png);
+  background-repeat  : no-repeat;
+  background-position: center right;
+  background-origin  : content-box;
+  background-size    : 12px;
+
+  width        : 100%;
+  padding      : 0 0.5rem;
+  height       : 2rem;
+  line-height  : 2rem;
+  border-radius: 0.1515rem;
+  border       : solid 1px #dbdbdb;
+  cursor       : pointer;
+  outline      : 0;
+  font-size    : 0.8rem;
+}
+
+/* 弹窗 */
+.m-layer {
+  position: fixed;
+  top     : 0;
+  left    : 0;
+  right   : 0;
+  bottom  : 0;
+  z-index : 99999;
+}
+
+.m-layer .m-layer-mask {
+  position        : absolute;
+  top             : 0;
+  left            : 0;
+  right           : 0;
+  bottom          : 0;
+  background-color: #000;
+  opacity         : 0.4;
+}
+
+.m-layer .m-layer-card {
+  position        : relative;
+  top             : 40%;
+  left            : 50%;
+  transform       : translate(-50%, -50%);
+  background-color: #fff;
+  border-radius   : 0.75rem;
+  padding         : 1.565rem;
+  padding-top     : 1.75rem;
+  width           : 85%;
+  box-sizing      : border-box;
+  z-index         : 1;
+}
+
+.m-layer .m-layer-close {
+  position: absolute;
+  top     : 0.75rem;
+  right   : 0.75rem;
+  height  : 1rem;
+  width   : 1rem;
+}
+
+.m-layer .m-layer-title {
+  font-weight: 600;
+  font-size  : 0.85rem;
+  text-align : center;
+  padding    : 0.75rem 0;
+}
+
+.m-layer .m-layer-success {
+  height     : 2.655rem;
+  line-height: 1.3275rem;
+  width      : 100%;
+}
+
+.m-layer .content {
+  padding: 0.75rem 0 2.25rem 0;
+}
+
+.m-layer.m-layer-tip .m-layer-card {
+  width           : fit-content;
+  background-color: unset;
+}
+
+.m-layer.m-layer-tip .m-layer-card .content {
+  color     : #fff;
+  font-size : 1rem;
+  z-index   : 1;
+  padding   : 0;
+  text-align: center;
+}
+
+.m-layer.m-layer-tip .m-layer-mask {
+  border-radius: 0.75rem;
+  z-index      : -1;
+  opacity      : 0.7;
+}
